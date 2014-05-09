@@ -4,6 +4,7 @@
 ;;; Setup slime for sbcl
 (setq inferior-lisp-program "~/bin/sbcl")
 (load (expand-file-name "~/quicklisp/slime-helper.el"))
+(load-theme 'sanityinc-solarized-dark)
 
 ;;; provide this file
 (provide 'init-local)
